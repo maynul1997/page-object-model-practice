@@ -23,8 +23,8 @@ class Element_selector {
     }
     async LoginMethod() {
         await t.click(this.login);
-        await t.typeText(this.typename, "faisalk007");
-        await t.typeText(this.typepassw, "faisalk007");
+        await t.typeText(this.typename, "maynul3456");
+        await t.typeText(this.typepassw, "maynul3456");
         await t
             .setNativeDialogHandler(() => true)
             .click(this.loginBtn);
